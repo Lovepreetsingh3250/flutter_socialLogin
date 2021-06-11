@@ -32,8 +32,8 @@ class _DemoState extends State<Demo> {
 
 class FLogin{
   Future facebookLogin() async {
-    final provider = FbLogin();
-    var rest = await provider.loginWithFB();
+    //final provider = FbLogin();
+    var rest = await FbLogin().loginWithFB();
     return rest;
   }
 }
