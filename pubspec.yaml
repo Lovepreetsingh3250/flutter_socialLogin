@@ -1,6 +1,6 @@
 name: social_login_plugin
 description: A new Flutter plugin.
-version: 0.0.1
+version: 0.0.2
 homepage: http://socialplugin.cloudns.cl
 repository: https://github.com/Lovepreetsingh3250/flutter_socialLogin.git
 
@@ -16,6 +16,8 @@ dependencies:
   provider: ^4.3.3
   google_sign_in: ^4.4.4
   firebase_auth: ^0.16.0
+  dio: ^3.0.10
+  webview_flutter: ^1.0.7
 
 dev_dependencies:
   flutter_test:

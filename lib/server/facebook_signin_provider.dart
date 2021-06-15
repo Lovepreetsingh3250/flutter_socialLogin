@@ -21,14 +21,6 @@ class FbLogin {
         userProfile = profile;
         _isLoggedIn = true;
 
-        //String userImg = userProfile["picture"]["data"]["url"];
-        //String UEmail = userProfile["email"];
-        //showToast(context, "Logged In Success "+userProfile.toString());
-        //print(userProfile.toString());
-        /*setState(() {
-          userProfile = profile;
-          _isLoggedIn = true;
-        });*/
         return userProfile;
 
         break;
